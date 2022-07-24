@@ -1,0 +1,40 @@
+.navbar ul{
+  list-style: none;
+  /* background-color: #0c056b; */
+  background-color: tomato;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.navbar li{
+  display: inline-block;
+  color: white;
+  padding: 12px;
+  width: 70px;
+}
+
+.navbar li:hover{
+  background-color: white;
+  color: tomato;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: all 2ms;
+  font-weight: 700;
+}
+
+.speedDial {
+    position: fixed;
+    right: 3vmax;
+    top: 3vmax;
+  }
+  
+  .speedDialIcon {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: none;
+  }
+  
+
